@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Arrays</title>
+    <style>
+        body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #b1e27f;
+}
+
+h1 {
+    color: #8b4513; 
+}
+
+label {
+    color: #006400;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #8b4513;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #8b4513; 
+    color: #fff;
+    border: 1px solid #8b4513;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cd853f;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid #8b4513; 
+    color: #8b4513;
+}
+    </style>
+</head>
+<body>
+    <h1>Findig an Item In an Array</h1>
+    <label for="array1">Array 1:</label>
+    <input type="text" id="array1" placeholder="Enter elements separated by commas"><br><br>
+    <label for="array2">Array 2:</label>
+    <input type="text" id="array2" placeholder="Enter elements separated by commas"><br><br>
+    <button id="findUnique">Find Unique Elements</button>
+   <div id="result"></div>
+</body>
+</html>
